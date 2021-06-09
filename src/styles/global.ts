@@ -32,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button {
-    font-size: 500;
+    font-weight: 500;
   }
 
   h1,

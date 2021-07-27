@@ -7,14 +7,12 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  @media (max-width: 1080px) {
-    html {
+  html {
+    @media (max-width: 1080px) {
       font-size: 93.75%;
     }
-  }
 
-  @media (max-width: 720px) {
-    html {
+    @media (max-width: 720px) {
       font-size: 87.5%;
     }
   }
@@ -26,9 +24,11 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background: #333;
+    -webkit-font-smoothing: antialiased;
   }
 
   body, input, textarea, button {
+    font-family: sans-serif;
     font-weight: 500;
   }
 
@@ -37,7 +37,8 @@ const GlobalStyle = createGlobalStyle`
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  strong {
     font-weight: 600;
   }
 

@@ -13,7 +13,7 @@
   "dependencies": {
     "dotenv": "^9.0.2",
     "dotenv-safe": "^8.2.0",
-    "next": "^10.2.0",
+    "next": "^11.0.1",
     "next-compose-plugins": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -30,7 +30,7 @@
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.5"
   },
   "lint-staged": {
     "*.{ts,tsx,js,json,jsx}": [

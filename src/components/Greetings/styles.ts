@@ -1,26 +1,16 @@
-import styled, { keyframes } from 'styled-components';
-
-const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  gap: 2rem;
   color: #fff;
   height: 100vh;
 
   img {
-    animation: ${rotate} 15s linear infinite;
-    margin: 1rem 0;
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
   }
 `;

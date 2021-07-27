@@ -1,7 +1,5 @@
 # NextJS + TypeScript + Styled-Components
 
----
-
 ## :rocket: Getting started
 
 - You must have installed [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) to run the project.

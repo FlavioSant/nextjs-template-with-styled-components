@@ -1,7 +1,3 @@
-const dotenv = require('dotenv-safe');
-
-dotenv.config();
-
 const withPlugins = require('next-compose-plugins');
 
 console.info(`API_URL=${process.env.API_URL}`);

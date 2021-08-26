@@ -1,19 +1,13 @@
 import Image from 'next/image';
 
-import logoImg from '../../../public/next-logo.png';
-
 import { Container } from './styles';
 
-const Greetings: React.FC = () => {
-  return (
-    <Container>
-      <h1>NextJS Starter</h1>
-      <Image src={logoImg} placeholder="blur" alt="NextJS" />
-      <p>
-        An NextJS template including Typescript, Styled-components and ESLint.
-      </p>
-    </Container>
-  );
-};
-
-export { Greetings };
+export const Greetings: React.FC = () => (
+  <Container>
+    <h1>NextJS Starter</h1>
+    <Image src="/next-logo.png" width={150} height={150} alt="NextJS" />
+    <p>
+      An NextJS template including Typescript, Styled-components and ESLint.
+    </p>
+  </Container>
+);

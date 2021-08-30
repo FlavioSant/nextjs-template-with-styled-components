@@ -37,10 +37,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
+          <meta charSet="utf-8" />
+          <meta name="description" content="NextJS Start Project" />
           <link
-            rel="shortcut icon"
-            href="static/favicon.ico"
-            type="image/x-icon"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet"
           />
         </Head>
         <body>
